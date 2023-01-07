@@ -12,8 +12,8 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: my-helm-repo
-      values:
-        image:
-          repository: "bhagyesh19/static-site" # {"$imagepolicy": "flux-system:static-site-image-update-policy:name"}
-          tag: "1.0.0" # {"$imagepolicy": "flux-system:static-site-image-update-policy:tag"}
+  values:
+    image:
+      repository: "bhagyesh19/static-site" # {"$imagepolicy": "flux-system:static-site-image-update-policy:name"}
+      tag: "1.0.0" # {"$imagepolicy": "flux-system:static-site-image-update-policy:tag"}
   interval: 1m0s
