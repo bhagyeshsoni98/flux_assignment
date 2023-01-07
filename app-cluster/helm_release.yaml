@@ -1,4 +1,3 @@
----
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
@@ -15,5 +14,5 @@ spec:
   values:
     image:
       repository: "bhagyesh19/static-site" # {"$imagepolicy": "flux-system:static-site-image-update-policy:name"}
-      tag: "1.0.0" # {"$imagepolicy": "flux-system:static-site-image-update-policy:tag"}
+      tag: "2.2.0" # {"$imagepolicy": "flux-system:static-site-image-update-policy:tag"}
   interval: 1m0s
