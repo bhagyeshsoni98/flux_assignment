@@ -130,3 +130,11 @@
     ![port_forwarded_svc](./media/port_forwarded_svc.png)
     ![port_forward](./media/port_forward.png)
     ![localhost](./media/localhost.png)
+
+5. Port forwarded service of weavework UI solution for Flux to manage and view flux resources through UI.
+    ![ui_port_forwarded](./media/ui_port_forwarded.png)
+    ![ui_1](./media/ui_1.png)
+    ![ui_2](./media/ui_2.png)
+    ![ui_3](./media/ui_3.png)
+    ![ui_4](./media/ui_4.png)
+    ![ui_5](./media/ui_5.png)
