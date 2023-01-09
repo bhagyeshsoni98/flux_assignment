@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/bhagyeshsoni98/flux_test
+  url: ssh://git@github.com/bhagyeshsoni98/flux_assignment
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
