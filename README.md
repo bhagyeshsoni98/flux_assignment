@@ -138,3 +138,7 @@
     ![ui_3](./media/ui_3.png)
     ![ui_4](./media/ui_4.png)
     ![ui_5](./media/ui_5.png)
+
+6. Fire `flux uninstall` command to delete all the flux resources from cluster created under flux-system namespace.
+    ![flux_uninstall](./media/flux_uninstall.png)
+    ![flux_system_ns_removed](./media/flux_system_ns_removed.png)
